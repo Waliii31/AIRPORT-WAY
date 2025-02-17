@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AIRPORT WAY</title>
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <!-- Left Menu -->
+            <ul class="nav-menu left-menu">
+                <li><a href="Users.html">USER</a></li>
+                <li><a href="Vehical.html">VEHICALS</a></li>
+                <li><a href="configuration.html">SETTING</a></li>
+            </ul>
+
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo">
+                <img src="Images/logo.png" alt="Logo">
+            </a>
+
+            <!-- Right Menu -->
+            <ul class="nav-menu right-menu">
+                <li><a href="payment.html">PAYMENT SETTING</a></li>
+                <li><a href="index.html" class="login-btn">LOG OUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="mobile-nav">
+        <a href="index.html" class="nav-logo">
+            <img src="Images/logo.png" alt="Logo">
+        </a>
+
+        <ul class="nav-menu left-menu">
+            <li><a href="Users.html">USER</a></li>
+            <li><a href="Vehical.html">VEHICALS</a></li>
+            <li><a href="configuration.html">SETTING</a></li>
+            <li><a href="payment.html">PAYMENT SETTING</a></li>
+            <li><a href="index.html" class="login-btn">LOG OUT</a></li>
+        </ul>
+
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <header
+        style="background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url('Images/welcom.png');  background-position: center; background-size: cover; background-repeat: no-repeat;"
+        class="all-heros">
+        <div class="container">
+            <h1>CREATE USER</h1>
+        </div>
+    </header>
+
+    <section class="register-vehicle">
+        <div class="container">
+            <h2 class="form-title">Register User</h2>
+            <form class="vehicle-form">
+                <div class="form-group">
+                    <label for="name">* Name</label>
+                    <input type="text" id="name" class="form-control" required placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">* E-Mail</label>
+                    <input type="email" id="email" class="form-control" required placeholder="Enter E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="phone">* Phone no</label>
+                    <input type="tel" id="phone" class="form-control" required placeholder="Enter Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="password">* Password</label>
+                    <input type="password" id="password" class="form-control" required placeholder="Enter Password">
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile no</label>
+                    <input type="tel" id="mobile" class="form-control" placeholder="Enter Mobile Number">
+                </div>
+                <div class="form-group">
+                    <label for="is-active">
+                        <input type="checkbox" id="is-active">
+                        Is Active?
+                    </label>
+                </div>
+                <div class="w-100 d-flex justify-content-start align-content-center gap-3">
+                    <button type="submit" class="submit-btn">Save</button>
+                    <button type="button" class="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-col company-info">
+                    <img src="Images/logo.png" alt="Airport Way" class="footer-logo">
+                    <p>Premium airport transfer services with comfort and style. Your journey begins with us.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61552517851950"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@airportwaytaxi?_t=8rPm7RkI7t3&_r=1"><i
+                                class="bi bi-tiktok"></i></a>
+                        <a href="https://www.instagram.com/airportwaytaxi?igsh=MTNwaXN2YXNkYWwycw=="><i
+                                class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="Fleets.html">Fleets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="services.html">Airport Service</a></li>
+                        <li><a href="services.html">Seaport Transfer</a></li>
+                        <li><a href="services.html">Station Transfer</a></li>
+                        <li><a href="services.html">Hotel Transfer</a></li>
+                        <li><a href="services.html">City To City Transfer</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-col contact-info">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>43 Market Street, Sheffield, S21 4EG</span>
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone-fill"></i>
+                            <a href="tel:07424222333">07 424 222 333</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:booking@airportway.co.uk">booking@airportway.co.uk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>© 2024 Airport Way. All Rights Reserved</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="terms-and-conditions.html">Terms & Conditions</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
